@@ -3,7 +3,7 @@
 .memory {
   display: flex;
   flex-wrap: wrap;
-  width: calc( 300px + 3.6em);
+  width: calc( 30vw + 3.6em);
   margin: auto;
   user-select: none;
   font-family: 'Montserrat', sans-serif;

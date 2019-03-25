@@ -1,5 +1,5 @@
 .memory > .guesses {
-    font-size: 1em;
+    font-size: 1.5vw;
     width: calc(100% - 0.4em);
     margin:0.5em 0.2em;
     text-align: right;

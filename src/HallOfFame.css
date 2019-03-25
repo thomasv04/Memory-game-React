@@ -3,6 +3,7 @@
     border-collapse: collapse;
     margin-top:50px;
     border: 1px solid #000;
+    font-size: 1vw;
   }
   
   .hallOfFame .date,
