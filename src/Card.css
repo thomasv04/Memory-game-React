@@ -1,0 +1,38 @@
+.memory > .card {
+    font-size: 1.5em;
+    outline: 0.12em solid silver;
+    margin: 0.2em;
+    display: flex;
+    cursor: default;
+    height: 50px;
+    width: 50px;
+    transition: outline-color .3s  ;
+    -webkit-transition: outline-color .3s  ;
+    -moz-transition: outline-color .3s  ;
+    -ms-transition: outline-color .3s  ;
+    -o-transition: outline-color .3s  ;
+}
+
+  .memory > .card:hover{
+    outline-color: rgb(255, 127, 144);
+  }
+  
+  .memory > .card.hidden {
+    background: silver;
+  }
+  
+  .memory > .card.justMatched,
+  .memory > .card.justMismatched {
+    outline: 0.12em solid green;
+  }
+  .memory > .card.justMismatched {
+    outline-color: red;
+  }
+  
+  .memory > .card.visible {
+    cursor: not-allowed;
+  }
+  
+  .memory > .card > .symbol {
+    margin: auto;
+  }

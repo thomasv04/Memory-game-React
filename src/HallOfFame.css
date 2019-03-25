@@ -1,0 +1,29 @@
+.hallOfFame {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top:50px;
+    border: 1px solid #000;
+  }
+  
+  .hallOfFame .date,
+  .hallOfFame .guesses {
+    width: 20%;
+    text-align: center;
+    padding: 0 10px;
+  }
+
+  .hallOfFame .player{
+      padding-left:10px;
+  }
+  
+  .hallOfFame tr:nth-child(even) {
+    background: #eee;
+  }
+
+  .hallOfFame tr{
+      border: 1px solid #000;
+  }
+
+  .hallOfFame td{
+    border: 1px solid #000;
+  }
