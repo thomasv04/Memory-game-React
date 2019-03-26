@@ -1,22 +1,28 @@
 .memory > .card {
     position: relative;
     font-size: 2vw;
-    outline: 0.12em solid silver;
-    margin: 0.2em;
+    margin: 0.1em;
     display: flex;
     cursor: default;
     height: 0px;
-    width: calc(100% / 6 - 0.4em);
-    padding-top:calc(100% / 6 - 0.4em);
-    transition: outline-color .3s  ;
-    -webkit-transition: outline-color .3s  ;
-    -moz-transition: outline-color .3s  ;
-    -ms-transition: outline-color .3s  ;
-    -o-transition: outline-color .3s  ;
+    width: calc(100% / 6 - 0.2em);
+    padding-top:calc(100% / 6 - 0.2em);
+    transition: border-color .3s  ;
+    -webkit-transition: border-color .3s  ;
+    -moz-transition: border-color .3s  ;
+    -ms-transition: border-color .3s  ;
+    -o-transition: border-color .3s  ;
+    border-radius:10px;
+    -webkit-border-radius:10px;
+    -moz-border-radius:10px;
+    -ms-border-radius:10px;
+    -o-border-radius:10px;
+    box-sizing: border-box;
+    border:0.12em solid silver;
 }
 
   .memory > .card:hover{
-    outline-color: rgb(255, 127, 144);
+    border-color: rgb(255, 127, 144);
   }
   
   .memory > .card.hidden {
@@ -25,10 +31,10 @@
   
   .memory > .card.justMatched,
   .memory > .card.justMismatched {
-    outline: 0.12em solid green;
+    border-color: green;
   }
   .memory > .card.justMismatched {
-    outline-color: red;
+    border-color: red;
   }
   
   .memory > .card.visible {
