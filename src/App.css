@@ -4,7 +4,18 @@
   display: flex;
   flex-wrap: wrap;
   width: calc( 30vw + 3.6em);
+  height: 100vh;
   margin: auto;
   user-select: none;
   font-family: 'Montserrat', sans-serif;
+  justify-content: space-around;
+  align-content: center;
+}
+
+@media (max-width: 480px) {
+  .memory{
+    width : calc(60vw + 3.6em);
+  }
+  
+  
 }

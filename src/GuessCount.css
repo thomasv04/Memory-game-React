@@ -7,3 +7,13 @@
 
     
   }
+
+  @media (max-width: 480px) {
+    .memory > .guesses {
+      font-size: 3vw;
+  
+      
+    }
+    
+    
+  }
